@@ -1,0 +1,30 @@
+{
+  "name": "elgato-keylight",
+  "version": "1.0.0",
+  "description": "Control Elgato Key Light devices",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "elgato",
+    "keylight",
+    "control",
+    "api"
+  ],
+  "author": "Abel Neto",
+  "license": "MIT",
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "axios": "^1.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
